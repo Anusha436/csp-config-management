@@ -1,0 +1,12 @@
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+  namespace: config-management-system
+spec:
+  clusterName: commerce-sofy
+  git:
+    syncRepo: https://github.com/Anusha436/csp-config-management/csp-config-management.git
+    syncBranch: 1.0.0
+    secretType: ssh
+    policyDir: "locality-specific-policy/config-root"
