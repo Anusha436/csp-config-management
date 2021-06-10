@@ -2,7 +2,7 @@
 kind: ClusterRoleBinding 
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: commerce-auditors2
+  name: commerce-auditor
   annotations:
     configmanagement.gke.io/cluster-selector: selector-central-or-east
 subjects:
