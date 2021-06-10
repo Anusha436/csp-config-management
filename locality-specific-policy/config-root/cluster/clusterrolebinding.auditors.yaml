@@ -11,5 +11,5 @@ subjects:
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
-  name: commerce-user1
+  name: commerce-new
   apiGroup: rbac.authorization.k8s.io
